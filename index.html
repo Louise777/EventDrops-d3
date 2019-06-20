@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Event Drops Demo</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+    </head>
+    <body>
+        <h1>Event Drops Demo</h1>
+        <div id="eventdrops-demo"></div>
+		<div class="tooltip">
+			<div class="commit">
+				 <div class="content">
+					<h3 class="message"></h3>
+					<p>
+						<span class="author"></span> on <span class="date"></span> - <span class="sha"></span>
+					</p>
+				</div>
+			</div>
+		</div>
+        <p class="infos">
+            <span id="numberCommits"></span> commits <span class="light">found between</span> <br />
+            <span id="startTime"></span> <span class="light">and</span> <span id="endTime"></span>
+        </p>
+        <footer>
+            <p class="light">
+                Imitation of 
+				<a href="https://marmelab.com/en/">Marmelab</a>'s
+				<a href="https://github.com/marmelab/EventDrops">EventDrops</a>. <br />
+				Just for study
+            </p>
+        </footer>
+    <script type="text/javascript" src="eventDrops.js"></script></body>
+</html>
